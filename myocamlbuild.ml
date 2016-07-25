@@ -1,5 +1,5 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 5d096c102a157b8331084d7487598dd2) *)
+(* DO NOT EDIT (digest: 70bba490a7207d6d9768a41c098b3130) *)
 module OASISGettext = struct
 (* # 22 "src/oasis/OASISGettext.ml" *)
 
@@ -767,7 +767,7 @@ end
 open Ocamlbuild_plugin;;
 let package_default =
   {
-     MyOCamlbuildBase.lib_ocaml = [("Nexmo", ["src"], [])];
+     MyOCamlbuildBase.lib_ocaml = [("nexmo", ["src"], [])];
      lib_c = [];
      flags = [];
      includes = []

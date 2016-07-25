@@ -1,0 +1,22 @@
+opam-version: "1.2"
+name: "nexmo-sdk"
+version: "~1.0"
+maintainer: "Dorian Peake <dorian@nexmo.com>"
+authors: "Dorian Peake <dorian@nexmo.com>"
+homepage: "http://www.nexmo.com"
+bug-reports: "http://www.github.com/dozzman/nexmo-ocaml"
+license: "Apache 2.0"
+dev-repo: "http://www.github.com/dozzman/nexmo-ocaml.git"
+build: [
+  ["ocaml" "setup.ml" "-configure" "--prefix" prefix]
+  ["ocaml" "setup.ml" "-build"]
+]
+install: ["ocaml" "setup.ml" "-install"]
+remove: ["ocamlfind" "remove" "nexmo"]
+depends: [
+  "ocamlfind" {build}
+  "lwt"
+  "cohttp"
+  "cohttp.lwt"
+  "uri"
+]

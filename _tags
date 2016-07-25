@@ -1,5 +1,5 @@
 # OASIS_START
-# DO NOT EDIT (digest: 357330c3d4d85eedc7879fc43081fdc5)
+# DO NOT EDIT (digest: a39442eecd703b601219d429faaae0fa)
 # Ignore VCS directories, you can use the same kind of rule outside
 # OASIS_START/STOP if you want to exclude directories that contains
 # useless stuff for the build process
@@ -14,8 +14,8 @@ true: annot, bin_annot
 ".git": not_hygienic
 "_darcs": -traverse
 "_darcs": not_hygienic
-# Library Nexmo
-"src/Nexmo.cmxs": use_Nexmo
+# Library nexmo
+"src/nexmo.cmxs": use_nexmo
 "src/credentials.cmx": for-pack(Nexmo)
 "src/api.cmx": for-pack(Nexmo)
 "src/sms.cmx": for-pack(Nexmo)
