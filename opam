@@ -1,5 +1,5 @@
 opam-version: "1.2"
-name: "nexmo-sdk"
+name: "nexmo"
 version: "~1.0"
 maintainer: "Dorian Peake <dorian@nexmo.com>"
 authors: "Dorian Peake <dorian@nexmo.com>"

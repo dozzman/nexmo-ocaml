@@ -1,5 +1,5 @@
 OASISFormat:    0.4
-Name:           nexmo-sdk
+Name:           nexmo
 Version:        1.0
 Synopsis:       Nexmo SMS Messaging SDK for OCaml
 Authors:        Dorian Peake
