@@ -1,0 +1,21 @@
+OASISFormat:    0.4
+Name:           nexmo-sdk
+Version:        1.0
+Synopsis:       Nexmo SMS Messaging SDK for OCaml
+Authors:        Dorian Peake
+License:        ISC
+BuildTools:     ocamlbuild
+
+Library Nexmo
+    Path:           src
+    Pack:           true
+    Modules:        Credentials,
+                    Api,
+                    Sms
+    BuildDepends:   lwt,
+                    cohttp,
+                    cohttp.lwt,
+                    uri
+Plugins:
+    META (0.4)
+
