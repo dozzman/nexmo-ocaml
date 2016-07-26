@@ -15,7 +15,8 @@ Library nexmo
     BuildDepends:   lwt,
                     cohttp,
                     cohttp.lwt,
-                    uri
+                    uri,
+                    yojson
 Plugins:
     META (0.4)
 

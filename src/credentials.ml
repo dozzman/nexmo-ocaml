@@ -6,7 +6,7 @@ type t = {
 let param_api_key = "api_key"
 let param_api_secret = "api_secret"
 
-let make ~api_key:api_key ~api_secret:api_secret =
+let make ~api_key ~api_secret =
   { api_key = api_key;
     api_secret = api_secret
   }

@@ -1,8 +1,8 @@
 # OASIS_START
-# DO NOT EDIT (digest: e910a4f531f3e09c9cabdf7dfdc81c38)
+# DO NOT EDIT (digest: 302de367b8ed4e3d36edeb90a3102b8f)
 version = "1.0"
 description = "Nexmo SMS Messaging SDK for OCaml"
-requires = "lwt cohttp cohttp.lwt uri"
+requires = "lwt cohttp cohttp.lwt uri yojson"
 archive(byte) = "nexmo.cma"
 archive(byte, plugin) = "nexmo.cma"
 archive(native) = "nexmo.cmxa"
